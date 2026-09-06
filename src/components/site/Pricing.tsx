@@ -9,7 +9,7 @@ function scrollToForm() {
 
 export function Pricing() {
   const [activeId, setActiveId] = useState(planos[0].id);
-  const active = planos.find((p) => p.id === activeId) ?? planos[0];
+  const active = planos.find((p) => p.id === activeId)!;
 
   return (
     <div className="mx-auto max-w-5xl">

@@ -11,7 +11,8 @@ import {
 import { Header } from "@/components/site/Header";
 import { Footer } from "@/components/site/Footer";
 import { Section, SectionHeading } from "@/components/site/Section";
-import { AthleteCard, PillarCard, PlanCard, ReviewCard, TeamCard } from "@/components/site/Cards";
+import { AthleteCard, PillarCard, ReviewCard, TeamCard } from "@/components/site/Cards";
+import { Pricing } from "@/components/site/Pricing";
 import { EnrollForm } from "@/components/site/EnrollForm";
 import {
   academia,
@@ -220,13 +221,9 @@ function Index() {
         <SectionHeading
           eyebrow="Planos e valores"
           title="Escolha o plano do seu filho"
-          subtitle="Todos os planos incluem treinos técnicos, treino na academia, avaliação física e acompanhamento individual."
+          subtitle="Treinos no campo, academia, goleiro e extras. Tudo com metodologia profissional."
         />
-        <div className="grid gap-6 lg:grid-cols-3">
-          {planos.map((p) => (
-            <PlanCard key={p.nome} {...p} onCta={scrollToForm} />
-          ))}
-        </div>
+        <Pricing />
       </Section>
 
       {/* DEPOIMENTOS */}
