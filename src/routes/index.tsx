@@ -34,13 +34,13 @@ export const Route = createFileRoute("/")({
       {
         name: "description",
         content:
-          "Escolinha de futebol em Tangará da Serra - MT para 3 a 15 anos. Equipe formada em Educação Física, ex-atletas profissionais e +30 atletas aprovados em clubes.",
+          "Treinamento especializado e metodologia profissional para quem sonha alto no futebol. Escolinha em Tangará da Serra - MT para atletas de 3 a 15 anos.",
       },
-      { property: "og:title", content: "E10 Football | Escolinha de Futebol em Tangará da Serra" },
+      { property: "og:title", content: "E10 Football | Treinamento especializado em Tangará da Serra" },
       {
         property: "og:description",
         content:
-          "Formando atletas com caráter para o futebol profissional. Turmas de 3 a 15 anos, treino técnico e preparação na academia.",
+          "Treinamento especializado e metodologia profissional para quem sonha alto no futebol. Turmas de 3 a 15 anos, campo, academia e aulas de goleiro.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
