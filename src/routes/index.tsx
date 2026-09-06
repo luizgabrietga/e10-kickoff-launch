@@ -1,6 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
 import {
-  Activity,
   BarChart3,
   Dumbbell,
   MessageCircle,
@@ -267,10 +266,6 @@ function Index() {
         <MessageCircle className="h-5 w-5" />
         <span className="hidden text-xs sm:inline">WhatsApp</span>
       </a>
-
-      <span className="sr-only">
-        <Activity />
-      </span>
     </div>
   );
 }
