@@ -28,7 +28,7 @@ export const contato = {
 };
 
 export const hero = {
-  titulo: "Formando atletas com caráter para o futebol profissional",
+  titulo: "Preparando Treinamento especializado e metodologia profissional para quem sonha alto no futebol",
   subtitulo: "A escolinha de futebol mais bem avaliada de Tangará da Serra - MT",
   nota: "4,6/5 no Google",
 };
@@ -98,7 +98,7 @@ export const equipe = [
     foto: eliu.url,
   },
   {
-    nome: 'Milton Júnior "Miltinho"',
+    nome: "Milton Júnior",
     cargo: "Ex-atleta profissional • Treinador",
     descricao:
       "Ex-atleta profissional de futebol e formado em Educação Física. Campeão em competições estaduais, hoje dedica a experiência à formação da base.",
@@ -106,7 +106,7 @@ export const equipe = [
   },
   {
     nome: "Júlio Weber",
-    cargo: "Equipe técnica",
+    cargo: "Treinador",
     descricao:
       "Formado em Educação Física, atua no dia a dia dos treinos conduzindo turmas e no acompanhamento da evolução dos atletas.",
     foto: julio.url,
