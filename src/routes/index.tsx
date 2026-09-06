@@ -11,7 +11,8 @@ import {
 import { Header } from "@/components/site/Header";
 import { Footer } from "@/components/site/Footer";
 import { Section, SectionHeading } from "@/components/site/Section";
-import { AthleteCard, PillarCard, PlanCard, ReviewCard, TeamCard } from "@/components/site/Cards";
+import { AthleteCard, PillarCard, ReviewCard, TeamCard } from "@/components/site/Cards";
+import { Pricing } from "@/components/site/Pricing";
 import { EnrollForm } from "@/components/site/EnrollForm";
 import {
   academia,
@@ -33,13 +34,13 @@ export const Route = createFileRoute("/")({
       {
         name: "description",
         content:
-          "Escolinha de futebol em Tangará da Serra - MT para 3 a 15 anos. Equipe formada em Educação Física, ex-atletas profissionais e +30 atletas aprovados em clubes.",
+          "Treinamento especializado e metodologia profissional para quem sonha alto no futebol. Escolinha em Tangará da Serra - MT para atletas de 3 a 15 anos.",
       },
-      { property: "og:title", content: "E10 Football | Escolinha de Futebol em Tangará da Serra" },
+      { property: "og:title", content: "E10 Football | Treinamento especializado em Tangará da Serra" },
       {
         property: "og:description",
         content:
-          "Formando atletas com caráter para o futebol profissional. Turmas de 3 a 15 anos, treino técnico e preparação na academia.",
+          "Treinamento especializado e metodologia profissional para quem sonha alto no futebol. Turmas de 3 a 15 anos, campo, academia e aulas de goleiro.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
@@ -220,13 +221,9 @@ function Index() {
         <SectionHeading
           eyebrow="Planos e valores"
           title="Escolha o plano do seu filho"
-          subtitle="Todos os planos incluem treinos técnicos, treino na academia, avaliação física e acompanhamento individual."
+          subtitle="Treinos no campo, academia, goleiro e extras. Tudo com metodologia profissional."
         />
-        <div className="grid gap-6 lg:grid-cols-3">
-          {planos.map((p) => (
-            <PlanCard key={p.nome} {...p} onCta={scrollToForm} />
-          ))}
-        </div>
+        <Pricing />
       </Section>
 
       {/* DEPOIMENTOS */}
