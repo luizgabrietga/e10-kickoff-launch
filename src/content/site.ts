@@ -28,8 +28,8 @@ export const contato = {
 };
 
 export const hero = {
-  titulo: "Preparando Treinamento especializado e metodologia profissional para quem sonha alto no futebol",
-  subtitulo: "A escolinha de futebol mais bem avaliada de Tangará da Serra - MT",
+  titulo: "Preparando Jovens Talentos para o Alto Rendimento",
+  subtitulo: "Treinamento especializado e metodologia profissional para quem sonha alto no futebol.",
   nota: "4,6/5 no Google",
 };
 
