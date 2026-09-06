@@ -24,7 +24,7 @@ export const contato = {
   endereco: "MT-480, 2711 - Jardim Morada do Sol, Tangará da Serra - MT, 78304-309",
   horarios: ["Segunda a sexta: 07h às 11h e 14h às 20h", "Sábado: 08h às 12h", "Domingo: fechado"],
   mapaEmbed:
-    "https://www.google.com/maps?q=MT-480,+2711+-+Jardim+Morada+do+Sol,+Tangar%C3%A1+da+Serra+-+MT,+78304-309&output=embed",
+    "https://www.google.com/maps?q=C+T+G+Alliance+Serra&output=embed",
 };
 
 export const hero = {
