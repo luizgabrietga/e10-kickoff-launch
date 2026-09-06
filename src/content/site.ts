@@ -138,6 +138,7 @@ export const planos = [
   {
     id: "campo-3x",
     nome: "Treinamentos Apenas no Campo",
+    tabLabel: "Campo 3x",
     subtitulo: "3x por semana",
     info: "Segunda, Quarta e Sexta",
     inclui: [
@@ -155,6 +156,7 @@ export const planos = [
   {
     id: "campo-2x",
     nome: "Treinamentos Apenas no Campo",
+    tabLabel: "Campo 2x",
     subtitulo: "2x por semana",
     info: "",
     inclui: [
@@ -172,6 +174,7 @@ export const planos = [
   {
     id: "completo",
     nome: "Plano Completo",
+    tabLabel: "Campo + Academia",
     subtitulo: "Campo + Academia",
     info: "3x campo + 2x academia – academia não altera o valor",
     inclui: [
@@ -189,6 +192,7 @@ export const planos = [
   {
     id: "goleiro",
     nome: "Aulas de Goleiro",
+    tabLabel: "Goleiro",
     subtitulo: "3x por semana",
     info: "",
     inclui: [
@@ -204,6 +208,7 @@ export const planos = [
   {
     id: "extras",
     nome: "Extras e Avulsos",
+    tabLabel: "Extras",
     subtitulo: "",
     info: "",
     inclui: [],

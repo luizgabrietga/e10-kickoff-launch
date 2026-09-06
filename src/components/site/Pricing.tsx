@@ -27,7 +27,7 @@ export function Pricing() {
                 : "border border-border bg-card text-foreground hover:border-gold/60 hover:text-gold",
             )}
           >
-            {p.nome}
+            {p.tabLabel ?? p.nome}
           </button>
         ))}
       </div>
